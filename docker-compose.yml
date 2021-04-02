@@ -1,0 +1,9 @@
+version: '3'
+
+services: 
+  ts-node-starter: # Replace with the service name
+    image: ts-node-starter # Replace with the image name
+    container_name: ts-node-starter # Replace with the container name
+    restart: on-failure
+    ports: 
+      - "8080:8080" # Replace with the correct ports"
